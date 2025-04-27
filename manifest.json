@@ -1,7 +1,7 @@
 {
   "name": "Test",
   "short_name": "Test",
-  "start_url": "/time_managment/index.html",
+  "start_url": "/weather_mini_app/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4169E1",
