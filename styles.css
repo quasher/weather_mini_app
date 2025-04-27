@@ -1,0 +1,53 @@
+    @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #F0F4F8;
+            min-height: 100vh;
+            font-family: -apple-system, sans-serif;
+        }
+
+        .weather-card {
+            background: white;
+            border-radius: 25px;
+            padding: 25px;
+            margin: 10px 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .current-weather {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .weather-icon {
+            font-size: 4em;
+            margin: 20px 0;
+        }
+
+        .temp-large {
+            font-size: 3.5em;
+            font-weight: 300;
+            color: #2D3748;
+        }
+
+        .daily-forecast {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding: 15px 0;
+        }
+
+        .day-card {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            min-width: 100px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
